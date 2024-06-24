@@ -1,22 +1,19 @@
 .container{
     height: 150px;
     display: flex;
-    background-color: cyan;
-    overflow: auto
+    /* background-color: cyan; */
+    overflow: auto;
+    justify-content: space-evenly;
 
 }
 
 .box{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     background-color: blue;
     border: 1px solid #000;
     /* border-radius: 10px; */
     padding: 20px;
-    width: 30%;
+    /* width: 30%; */
     /* flex-shrink: 0; */
-     
-}
-
-.box1, .box3{
-    flex-shrink: 0;
-}
+   
+     }
